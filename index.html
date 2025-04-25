@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Halo Doctor</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-left">🌐 English |Regional</div>
+    <div class="nav-right">
+      <button class="nav-btn">Login</button>
+      <button class="nav-btn primary">Start Free</button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-text">
+      <h1>🩺 Meet <span>Halo Doctor</span></h1>
+      <p>Your smart digital health companion for condition-based care, alerts, and emergency access.</p>
+      <button class="cta">Upload Report & Get Health Insights</button>
+    </div>
+    <div class="hero-image">
+      <div>Sit back and Relax-Halo AI is one Duty!</div>
+    </div>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>✨ Features</h2>
+      <div class="card-grid">
+        <div class="card">Symptom Checker</div>
+        <div class="card">Multilingual Chatbot</div>
+        <div class="card">Nearby Doctor Finder</div>
+        <div class="card">Emergency Red Button</div>
+        <div class="card">Document-based Alerts</div>
+        <div class="card">UV & Pollen Warnings</div>
+      </div>
+    </section>
+
+    <section class="upload">
+      <h2>📄 Upload Medical Document</h2>
+      <input type="file" id="fileInput" />
+      <button onclick="processFile()">Analyze</button>
+      <p id="result"></p>
+    </section>
+
+    <section class="emergency">
+      <h2>🚨 Emergency Help</h2>
+      <button class="red-button">Call Ambulance</button>
+      <button class="red-button">Nearby Medical</button>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Halo Doctor | Built for Innovation 🚀</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
